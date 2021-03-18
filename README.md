@@ -1,6 +1,6 @@
 # Django REST Framework / Docker  
 
-PR link:  
+PR link: https://github.com/gracerosemary/drf-api/pull/1  
 **Author**: Grace Choi  
 **Version**: 1.0.0
 
