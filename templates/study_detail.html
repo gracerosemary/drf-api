@@ -1,0 +1,12 @@
+{% extends 'base.html' %} 
+{% block content %} 
+
+<h2>Student: {{ study_list.student }}</h2>
+<h2>Structure: {{ study_list.structure }}</h2>
+<p>Action: {{ study_list.action }}</p>
+<p>Method: {{ study_list.method }}</p>
+<p>Notes: {{ study_list.notes }}</p>
+<a href="{% url 'study_update' movie.pk %}"> Update Study Prompt</a>
+<a href="{% url 'study_delete' movie.pk %}"> Delete Study Prompt</a>
+
+{% endblock content %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Delete Study Prompt</h1>
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <p>Did you complete the prompt or are you quitting? If you didn't complete the challenge, you should not be deleting!</p>
+    <input type="submit" value="DELETE">
+</form>
+
+{% endblock content %}
